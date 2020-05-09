@@ -1,6 +1,6 @@
 def fib(n):
     if n < 0:
-        raise ValueError
+        raise ValueError('Error. Ingresa un numero positivo.')
     elif n in (0, 1):
         return n
     else:
