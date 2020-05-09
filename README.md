@@ -8,8 +8,10 @@ Taller pytest para flisol Mexico 2020
 
 ## Requisitos para el taller
 
-- Python 3.7 instalado
+- Cuenta de Github
+- Python 3.7 instalado (MiniConda recomendado)
+- Git instalado
 - Repositorio clonado
 - Dependencias instaladas (`requirements.txt`)
-- Editor de texto al gusto
+- Editor de texto al gusto (VsCode recomendado)
 - Terminal bash
