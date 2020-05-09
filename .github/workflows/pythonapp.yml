@@ -20,4 +20,11 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest -v --cov
+        pytest -v --cov --html=reporte/pytest.html
+    - name: Subir reporte pytest
+      uses: actions/upload-artifact@v1
+      with:
+          os: ubuntu-latest
+          python-version: 3.7
+          name: pytest-coverage-report
+          path: reporte/
